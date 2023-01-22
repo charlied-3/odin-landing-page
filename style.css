@@ -23,7 +23,8 @@ body {
     list-style: none;
 }
 
-.nav-list li {
+.nav-list a {
+    text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
 }
