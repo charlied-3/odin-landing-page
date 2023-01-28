@@ -72,7 +72,7 @@ body {
 }
 
 .info {
-    padding: 30px 200px;
+    padding: 50px 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,12 +80,15 @@ body {
 
 .info h2 {
     padding-bottom: 30px;
+    margin: 0;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937
 }
 
 .info ul {
+    padding: 0;
+    margin: 0;
     list-style: none;
     display: flex;
     align-items: center;
@@ -106,4 +109,20 @@ body {
 .info .material-icons {
     color: #3882f6;
     font-size: 100px;
+}
+
+.quote {
+    padding: 100px 300px;
+    background-color: #e5e7eb;
+}
+
+.quote p i {
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+    text-align: left;
+}
+
+.quote .author p {
+    text-align: right;
 }
