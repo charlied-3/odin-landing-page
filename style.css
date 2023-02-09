@@ -126,3 +126,33 @@ body {
 .quote .author p {
     text-align: right;
 }
+
+.action {
+    margin: 100px 200px;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a-left h2 {
+    margin: 0;
+    color: #e5e7eb;
+}
+
+.a-left p {
+    margin:0;
+    color: #e5e7eb;
+}
+
+.action button {
+    border-radius: 15px;
+    border-color: #e5e7eb;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
+    padding: 10px 30px;
+    border-radius: 12px;
+}
